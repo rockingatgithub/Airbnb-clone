@@ -1,0 +1,38 @@
+/* =========== applies to the complete page ================ */
+
+body {
+    margin: 0px;
+}
+
+/* ===================== styles for nav =============== */
+
+#container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: antiquewhite;
+    height: 8vh;
+    font-size: 20px;
+    align-items: center;
+}
+
+#link {
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+}
+
+#link a {
+    text-decoration: none;
+    color: grey;
+}
+
+
+
+
+
+@media only screen and (max-width: 576px) {
+    .hide-on-phone{
+        display: none;
+    }
+}
