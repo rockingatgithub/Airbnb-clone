@@ -2,6 +2,8 @@
 
 body {
     margin: 0px;
+    background: linear-gradient(to right, #8e9eab, #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 /* ===================== styles for nav =============== */
@@ -28,6 +30,53 @@ body {
 }
 
 
+#user-box{
+    display: inline-block;
+    height: 30px;
+    width: 60px;
+    background-color: white;
+    padding-top: 10px;
+    padding-left : 20px;
+    margin: 4px;
+    border-radius: 20px;
+}
+
+#search-bar {
+    background-color: white;
+    height: 60px;
+    width: 80%;
+    margin: auto ;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search-option{
+    height: 60%;
+    width: 15%;
+    border-right: 2px solid lightslategrey;
+}
+
+#search-icon-box{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(228, 131, 131);
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.fa-search{
+    vertical-align: -10px;
+}
+
+#guests-option{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
